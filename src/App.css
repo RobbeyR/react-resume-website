@@ -1,0 +1,46 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.page {
+    display: flex;
+    scroll-margin-top: 80px;
+    background-color: #f77062;
+}
+
+.page-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-right {
+    flex: 1;
+    background-color: white;
+    /* border: 10px;
+    border-style: solid; */
+    border-color: #f77062;
+    box-sizing: content-box;
+    font-size: 100%;
+}
+
+.page-right-info {
+    padding: 10%;
+    box-sizing: border-box;
+    
+}
+
+.page-right-title {
+    color: #f77062;
+}
+
+.page-left-title {
+    color: white;
+    text-shadow: -2px 0px 4px black;
+}
+
+.page-right ul {
+    list-style: square;
+}

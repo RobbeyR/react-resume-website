@@ -1,0 +1,38 @@
+#h-left-title {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#profilePic {
+    border-radius: 200%;
+    box-shadow: -30px 10px 50px black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.h-intro {
+    padding-top: 30px;
+}
+
+#h-right-info {
+    font-size: larger;
+}
+
+progress {
+    border-radius: 10px; 
+    width: 20%;
+    height: 10px;
+    box-shadow: 1px 1px 6px rgb( 0, 0, 0, 0.3);
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #f77062;
+    border-radius: 10px;
+}

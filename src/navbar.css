@@ -1,0 +1,104 @@
+.navbar {
+    overflow: hidden;
+    background: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    box-shadow: -1px 1px 10px black;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar-name {
+    color: #f77062;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#navbar-name:hover {
+    color: teal;
+    transition: 0.4s ease;
+}
+
+/* .fa-gem {
+    margin-right: 0.5rem;
+} */
+
+.navbar-info {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-info i {
+    color: #f77062;
+}
+
+/* .contact-info {
+    color: #f77062;
+} */
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar-item {
+    height: 80px;
+}
+
+.navbar-links {
+    color: #131313;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    letter-spacing: 4px;
+}
+
+.navbar-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    color: #f77062;
+}
+
+.button:hover {
+    color: teal;
+    transition: 0.4s ease;
+}
+
+.navbar-links:hover {
+    color: #f77062;
+    transition: 0.4s ease;
+}
