@@ -9,7 +9,7 @@ const App = () => {
   return <div>
         <nav className="navbar">
             <div className="navbar-container">
-                <a href="/" id="navbar-name">Roberto Rodriguez</a>
+                <a href="#home" id="navbar-name">Roberto Rodriguez</a>
                 <p className='navbar-info'><i class='bx bxs-phone bx-md'></i>(336) 596-8629</p>
                 <p className='navbar-info'><i class='bx bxs-envelope bx-md'></i>robbey.v.rodriguez@gmail.com</p>
                 <ul className="navbar-menu">
